@@ -1,0 +1,10 @@
+# compiled
+__pycache__
+build
+*.egg-info
+*.egg
+
+# output
+logs
+output
+
