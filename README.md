@@ -6,8 +6,6 @@
 
 ## Citation
 
-Note: need to update the pages when it is decided
-
 ```bash
 @article{Li-2023-Online,
   title = {Online Scene CAD Recomposition via Autonomous Scanning},
@@ -15,7 +13,7 @@ Note: need to update the pages when it is decided
   journal = {ACM Transactions on Graphics (SIGGRAPH Asia 2023)},
   volume = {42},
   number = {6},
-  pages = {?:1 -- ?:15},
+  pages = {Article 250: 1-16},
   year = {2023}}
 ```
 
