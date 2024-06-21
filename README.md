@@ -3,6 +3,8 @@
 ## News
 
 2023.9.30 The code will be released soon!
+2024.6.21 Upload source code V1!
+2024.7 [TODO] Refine and simplify code, merge all packages.
 
 ## Citation
 
