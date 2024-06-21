@@ -1,17 +1,7 @@
 cd ..
-git clone git@github.com:565353780/mesh-manage.git
-git clone git@github.com:565353780/udf-generate.git
-git clone git@github.com:565353780/scannet-dataset-manage.git
-git clone git@github.com:565353780/scan2cad-dataset-manage.git
-git clone git@github.com:565353780/shapenet-dataset-manage.git
-git clone git@github.com:565353780/scannet-sim-manage.git
 git clone git@github.com:565353780/conv-onet.git
-git clone git@github.com:565353780/points-shape-detect.git
-git clone git@github.com:565353780/global-pose-refine.git
-git clone git@github.com:565353780/global-to-patch-retrieval.git
 git clone git@github.com:565353780/implicit-3d-understanding.git
 git clone git@github.com:565353780/image-to-cad.git
-git clone git@github.com:565353780/noc-transform.git
 git clone git@github.com:565353780/pytorch-3d-r2n2.git
 
 cd mesh-manage
@@ -54,6 +44,15 @@ cd ../noc-transform
 ./dev_setup.sh
 
 cd ../pytorch-3d-r2n2
+./dev_setup.sh
+
+cd ../habitat-sim-manage
+./dev_setup.sh
+
+cd ../detectron2-detect
+./dev_setup.sh
+
+cd ../scene-layout-detect
 ./dev_setup.sh
 
 # For pre-installing broke package
