@@ -1,0 +1,10 @@
+# ln
+masked_pcd
+
+# compiled
+__pycache__
+
+# pointcloud files
+*.pcd
+*.ply
+
