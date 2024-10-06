@@ -8,7 +8,11 @@
 
 2024.10.6 Added the detailed document!
 
-[TODO]
+## TODO
+
+Release extra generated datasets.
+
+Release pre-trained models.
 
 Refine and simplify code.
 
