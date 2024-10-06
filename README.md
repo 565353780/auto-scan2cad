@@ -70,6 +70,12 @@ And this script will create these datasets:
       |- udfs/
 ```
 
+We are also uploading pre-processed datasets, and they will be available at BaiduNetDisk as soon as possible:
+
+```bash
+https://pan.baidu.com/s/1e1w2xtom4izmpyHn-a6zdg?pwd=chli
+```
+
 ## 4. Train
 
 Now, you have collected all used datasets, and it's time to start training kernel models!
