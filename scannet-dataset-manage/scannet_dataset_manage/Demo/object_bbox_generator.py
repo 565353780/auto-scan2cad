@@ -9,8 +9,8 @@ from scannet_dataset_manage.Module.object_bbox_generator import ObjectBBoxGenera
 
 
 def demo():
-    objects_folder_path = "/home/chli/chLi/ScanNet/objects/"
-    save_json_folder_path = "/home/chli/chLi/ScanNet/bboxes/"
+    objects_folder_path = "/home/chli/chLi/Dataset/ScanNet/objects/"
+    save_json_folder_path = "/home/chli/chLi/Dataset/ScanNet/bboxes/"
 
     object_bbox_generator = ObjectBBoxGenerator(objects_folder_path,
                                                 save_json_folder_path)

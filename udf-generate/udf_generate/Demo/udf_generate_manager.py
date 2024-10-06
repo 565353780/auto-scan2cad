@@ -5,8 +5,8 @@ from udf_generate.Module.udf_generate_manager import UDFGenerateManager
 
 
 def demo():
-    mesh_root_folder_path = "/home/chli/chLi/ShapeNet/Core/ShapeNetCore.v2/"
-    udf_save_root_folder_path = "/home/chli/chLi/ShapeNet/udfs/"
+    mesh_root_folder_path = "/home/chli/chLi/Dataset/ShapeNet/Core/ShapeNetCore.v2/"
+    udf_save_root_folder_path = "/home/chli/chLi/Dataset/ShapeNet/udfs/"
 
     udf_generate_manager = UDFGenerateManager(mesh_root_folder_path)
     udf_generate_manager.activeGenerateAllUDF(udf_save_root_folder_path)

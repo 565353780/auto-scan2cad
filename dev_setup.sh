@@ -53,3 +53,8 @@ cd ../detectron2-detect
 
 cd ../scene-layout-detect
 ./dev_setup.sh
+
+# post fix
+pip install -U torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 \
+  --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -U open3d

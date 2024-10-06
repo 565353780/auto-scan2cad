@@ -1,0 +1,9 @@
+# compiled
+__pycache__
+
+# cloned
+conv-onet
+image-to-cad
+implicit-3d-understanding
+pytorch-3d-r2n2
+Scan2CADRasterizer

@@ -9,12 +9,12 @@ from scan2cad_dataset_manage.Module.object_model_map_generator import ObjectMode
 
 
 def demo():
-    dataset_folder_path = "/home/chli/chLi/Scan2CAD/scan2cad_dataset/"
-    scannet_dataset_folder_path = "/home/chli/chLi/ScanNet/scans/"
-    shapenet_dataset_folder_path = "/home/chli/chLi/ShapeNet/Core/ShapeNetCore.v2/"
-    scannet_object_dataset_folder_path = "/home/chli/chLi/ScanNet/objects/"
-    scannet_bbox_dataset_folder_path = "/home/chli/chLi/ScanNet/bboxes/"
-    save_map_json_folder_path = "/home/chli/chLi/Scan2CAD/object_model_maps/"
+    dataset_folder_path = "/home/chli/chLi/Dataset/Scan2CAD/scan2cad_dataset/"
+    scannet_dataset_folder_path = "/home/chli/chLi/Dataset/ScanNet/scans/"
+    shapenet_dataset_folder_path = "/home/chli/chLi/Dataset/ShapeNet/Core/ShapeNetCore.v2/"
+    scannet_object_dataset_folder_path = "/home/chli/chLi/Dataset/ScanNet/objects/"
+    scannet_bbox_dataset_folder_path = "/home/chli/chLi/Dataset/ScanNet/bboxes/"
+    save_map_json_folder_path = "/home/chli/chLi/Dataset/Scan2CAD/object_model_maps/"
     print_progress = True
 
     object_model_map_generator = ObjectModelMapGenerator(

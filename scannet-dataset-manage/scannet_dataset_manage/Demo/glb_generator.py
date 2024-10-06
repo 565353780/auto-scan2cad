@@ -5,8 +5,8 @@ from scannet_dataset_manage.Module.glb_generator import GLBGenerator
 
 
 def demo():
-    scannet_dataset_folder_path = "/home/chli/chLi/ScanNet/scans/"
-    scannet_glb_dataset_folder_path = "/home/chli/chLi/ScanNet/glb/"
+    scannet_dataset_folder_path = "/home/chli/chLi/Dataset/ScanNet/scans/"
+    scannet_glb_dataset_folder_path = "/home/chli/chLi/Dataset/ScanNet/glb/"
     print_progress = True
 
     glb_generator = GLBGenerator(scannet_dataset_folder_path,
