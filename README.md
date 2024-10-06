@@ -21,9 +21,9 @@ Merge all packages.
 ## 0. Tested Environment Setting
 
 ```bash
-Ubuntu >= 20.04
-g++ >= 11
-cuda >= 11.7
+Ubuntu 20.04
+g++ 11
+cuda 11.7
 ```
 
 ## 1. Dataset Download and File Structure
